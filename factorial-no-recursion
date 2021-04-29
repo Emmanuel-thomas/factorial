@@ -1,0 +1,6 @@
+def fact1(n):
+    factt = 1
+    for i in range(n,0,-1):
+        factt *= i
+    return factt
+print(fact1(5))
